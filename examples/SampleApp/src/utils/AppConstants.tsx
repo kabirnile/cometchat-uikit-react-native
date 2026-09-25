@@ -1,15 +1,13 @@
 export const AppConstants = {
   fcmProviderId: '',
   apnsProviderId: '',
-  authKey: '',
-  appId: '',
-  region: '',
+  authKey: '153b77fd318973d10ded07331eda222340a25f66', // filled from dashboard[cite: 5]
+  appId: '1683782e31186e996',                       // filled from dashboard[cite: 5]
+  region: 'IN',                                      // filled from dashboard[cite: 5]
   subscriptionType: 'ALL_USERS',
   versionNumber: 'V5.5.0',
-  webClientId:
-    '',
-  iosClientId:
-    '',
+  webClientId: '',
+  iosClientId: '',
 };
 
 export const SCREEN_CONSTANTS = {
