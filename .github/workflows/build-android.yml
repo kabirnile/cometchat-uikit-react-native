@@ -24,11 +24,6 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install UI Kit Dependencies
-        run: |
-          cd packages/ChatUIKit
-          npm install --legacy-peer-deps || true
-
       - name: Install Sample App Dependencies
         run: |
           cd examples/SampleApp
@@ -45,3 +40,4 @@ jobs:
         with:
           name: cometchat-whatsapp-release-apk
           path: examples/SampleApp/android/app/build/outputs/apk/release/app-release.apk
+          
